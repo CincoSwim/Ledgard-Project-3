@@ -30,7 +30,7 @@ public class SlopeLengthCalculator {
 
             dist = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
 
-            System.out.println("The distance is " + dist);
+            System.out.println("The distance is " + (float) dist);
         } catch (InputMismatchException ex) {
             System.out.print("This input was not a number. Please try again.");
 
