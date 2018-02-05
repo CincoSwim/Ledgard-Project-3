@@ -5,6 +5,7 @@ public class Adder {
     /* Written by Christopher Pucko
        Computes the sum of a 3-digit number's digits by using Modulo division.
        i.e. An input of the number 733 would output 13 as the sum
+       This also works with higher digit numbers.
      */
     public static void main(String[] args) {
         Scanner keyin = new Scanner(System.in);

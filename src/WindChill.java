@@ -25,7 +25,7 @@ public class WindChill {
 
             chillIndex = 35.74 + 0.6215*temp - 35.75 * windExp + 0.4275 * temp * windExp;
 
-            System.out.println("The wind chill index is " + chillIndex);
+            System.out.println("The wind chill index is " + (int)chillIndex);
 
 
         }
