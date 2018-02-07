@@ -11,7 +11,7 @@ public class SlopeLengthCalculator {
         double x2;
         double y2;
         double dist;
-//Hi Omar
+
         Scanner numInput = new Scanner(System.in);
 
         try {
